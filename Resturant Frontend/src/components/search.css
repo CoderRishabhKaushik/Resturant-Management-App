@@ -1,0 +1,11 @@
+.main-search h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.main-search input {
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+}

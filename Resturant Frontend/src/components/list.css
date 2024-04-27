@@ -1,0 +1,55 @@
+.main-list h1 {
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 500px) {
+    table {
+        width: 100%;
+    }
+
+    th,
+    td {
+        width: 100%;
+        display: block;
+    }
+
+    th {
+        background-color: transparent;
+    }
+}
+
+span:hover{
+ color: red;
+ cursor: pointer;
+ 
+}
+
+.del {
+    color: red;
+}
+.alert-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
